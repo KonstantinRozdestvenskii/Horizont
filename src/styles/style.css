@@ -324,12 +324,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #3A4F64;
 }
 
-.order {
-    /*background-image: url("../images/order-bg.png");*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-    /*background-size: cover;*/
-}
+
 
 .order .container {
     padding-left: 0;

@@ -190,7 +190,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
     position: relative;
     padding: 12px 0 29px 0;
-    border: 2px solid red;
 }
 
 .hero-title h1 {
@@ -200,7 +199,6 @@ h1, h2, h3, h4, h5, h6 {
     white-space: nowrap;
     margin: 0;
     padding: 0;
-    border: 2px solid green;
     box-sizing: border-box;
     width: fit-content;
 }
@@ -217,7 +215,6 @@ h1, h2, h3, h4, h5, h6 {
     background-size: 100% auto;
     background-position: center;
     z-index: 1;
-    border: 1px solid white;
 }
 
 .hero-description {

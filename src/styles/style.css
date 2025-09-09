@@ -185,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title {
+    width: fit-content;
     box-sizing: border-box;
     margin-bottom: 40px;
     position: relative;
@@ -201,6 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
     border: 2px solid green;
     box-sizing: border-box;
+    width: fit-content;
 }
 
 .hero-title:before {
@@ -212,9 +214,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     background-image: url('../images/title-decore.svg');
     background-repeat: no-repeat;
-    /*background-size: 100% auto;*/
+    background-size: 100% auto;
     background-position: center;
-    background-size: cover;
     z-index: 1;
     border: 1px solid white;
 }

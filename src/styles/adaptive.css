@@ -249,7 +249,7 @@
     }
 
     .hero-title:before {
-        top: 3px;
+        top: -6px;
     }
 
     .hero-info {

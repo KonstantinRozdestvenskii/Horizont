@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-title h1 {
     font-size: 35px;
-    line-height: 43px;
+    line-height: 1.2;
     text-align: center;
     white-space: nowrap;
     margin: 0;

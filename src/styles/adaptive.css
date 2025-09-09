@@ -62,6 +62,11 @@
         border: 0;
     }
 
+    .hero-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .hero-info {
         margin: 60px 0;
         order: 2;
@@ -244,7 +249,7 @@
     }
 
     .hero-title:before {
-        top: 1px;
+        top: -1px;
     }
 
     .hero-info {

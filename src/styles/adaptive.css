@@ -180,6 +180,13 @@
         top: 3px;
     }
 
+    .catalog-title {
+        font-size: 25px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .product {
         flex-direction: column;
         justify-content: center;

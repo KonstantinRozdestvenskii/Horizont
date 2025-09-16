@@ -23,7 +23,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;    /* Убирает жирность */
     font-size: 1em;         /* Стандартный размер текста */
     margin: 0;              /* Убирает отступы */
+    padding: 0;
     line-height: normal;    /* Обычная высота строки */
+    display: block;
 }
 
 /* Базовые стили разделителя */
@@ -191,7 +193,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title h1 {
-    display: inline;
     font-size: 35px;
     line-height: 1;
     margin: 1px 0 6px 0;

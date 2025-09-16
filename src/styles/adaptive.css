@@ -172,16 +172,16 @@
         width: 430px;
     }
 
-    .hero-title h1 {
+    .hero-title .title-text {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 541px) {
     .hero-title {
-        width: 430px;
+        width: 360px;
     }
-    .hero-title h1 {
+    .hero-title .title-text {
         font-size: 25px;
     }
 
@@ -212,16 +212,12 @@
         flex: 0;
     }
 
-    .product-action {
+   .product-action {
         margin-top: 0;
     }
 }
 
 @media screen and (max-width: 501px) {
-
-    .hero-title {
-        width: 360px;
-    }
 
     .header .container {
         flex-wrap: wrap;
@@ -252,7 +248,7 @@
         width: 300px;
     }
 
-    .hero-title h1 {
+    .hero-title .title-text {
         font-size: 21px;
     }
 

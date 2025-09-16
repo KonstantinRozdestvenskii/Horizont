@@ -185,6 +185,11 @@
         font-size: 25px;
     }
 
+    .hero-description {
+        width: 360px;
+        border: 1px solid red
+    }
+
     .catalog-title {
         font-size: 25px;
         text-align: center;

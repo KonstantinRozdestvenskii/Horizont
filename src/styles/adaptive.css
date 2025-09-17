@@ -1,4 +1,9 @@
 @media screen and (max-width: 1081px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .catalog .container {
         padding-left: 30px;
         padding-right: 30px;
@@ -49,6 +54,10 @@
 
 @media screen and (max-width: 1025px) {
 
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .hero .container {
         flex-wrap: wrap;
         justify-content: center;
@@ -81,6 +90,11 @@
 }
 
 @media screen and (max-width: 751px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .header .logo {
         margin-right: 0;
     }
@@ -100,6 +114,11 @@
 }
 
 @media screen and (max-width: 651px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .burger {
         display: block;
         order: 3;
@@ -168,20 +187,31 @@
 
 @media screen and (max-width: 616px) {
 
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .hero-title {
         width: 430px;
     }
 
     .hero-title .title-text {
+        font-family: HeliosExtLight, sans-serif;
         font-size: 30px;
     }
 }
 
 @media screen and (max-width: 541px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .hero-title {
         width: 360px;
     }
     .hero-title .title-text {
+        font-family: HeliosExtLight, sans-serif;
         font-size: 25px;
     }
 
@@ -224,6 +254,10 @@
 
 @media screen and (max-width: 501px) {
 
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .header .container {
         flex-wrap: wrap;
     }
@@ -249,11 +283,16 @@
 
 @media screen and (max-width: 426px) {
 
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .hero-title {
         width: 300px;
     }
 
     .hero-title .title-text {
+        font-family: HeliosExtLight, sans-serif;
         font-size: 21px;
     }
 
@@ -264,6 +303,11 @@
 }
 
 @media screen and (max-width: 386px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .header .container, .footer .container {
         padding-left: calc((100% - 265px) / 2);
         padding-right: calc((100% - 265px) / 2);
@@ -275,6 +319,11 @@
 }
 
 @media screen and (max-width: 351px) {
+
+    .body {
+        font-family: HeliosExtLight, sans-serif;
+    }
+
     .order .container {
         padding: 0 15px;
     }

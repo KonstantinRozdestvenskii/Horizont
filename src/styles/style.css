@@ -4,10 +4,15 @@
 }
 
 @font-face {
-    font-family: "HelliosExtLight";
+    font-family: 'HelliosExtLight';
     src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-    src: url("../fonts/heliosextlight-regular.ttf");
+    src: url("../fonts/heliosextlight-regular.ttf") format("truetype");
     font-weight: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url('../fonts/Montserrat.ttf');
 }
 
 html {
@@ -16,7 +21,7 @@ html {
 
 body {
     color: #FDFEF8;
-    font-family: "HeliosExtLight", sans-serif;
+    font-family: 'HeliosExtLight', sans-serif;
 }
 
 /* Переопределение стилей для всех заголовков */
@@ -194,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title .title-text {
-    font-family: "HeliosExtLight", sans-serif;
+    font-family: 'HeliosExtLight', sans-serif;
     font-size: 35px;
     line-height: 1;
     margin: 1px 0 6px 0;

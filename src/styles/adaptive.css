@@ -1,11 +1,5 @@
 @media screen and (max-width: 1081px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -60,12 +54,6 @@
 
 @media screen and (max-width: 1025px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -103,12 +91,6 @@
 
 @media screen and (max-width: 751px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -132,12 +114,6 @@
 }
 
 @media screen and (max-width: 651px) {
-
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
 
     .body {
         font-family: HeliosExtLight, sans-serif;
@@ -211,12 +187,6 @@
 
 @media screen and (max-width: 616px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -232,12 +202,6 @@
 }
 
 @media screen and (max-width: 541px) {
-
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
 
     .body {
         font-family: HeliosExtLight, sans-serif;
@@ -290,12 +254,6 @@
 
 @media screen and (max-width: 501px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -325,12 +283,6 @@
 
 @media screen and (max-width: 426px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
-
     .body {
         font-family: HeliosExtLight, sans-serif;
     }
@@ -352,11 +304,6 @@
 
 @media screen and (max-width: 386px) {
 
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
 
     .body {
         font-family: HeliosExtLight, sans-serif;
@@ -373,12 +320,6 @@
 }
 
 @media screen and (max-width: 351px) {
-
-    @font-face {
-        font-family: HelliosExtLight;
-        src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-        font-weight: normal;
-    }
 
     .body {
         font-family: HeliosExtLight, sans-serif;

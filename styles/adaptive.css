@@ -89,6 +89,21 @@
 
 }
 
+@media screen and (max-width: 769px) {
+    .btn:active {
+        background-color: transparent;
+    }
+
+    .btn.product-btn:active {
+        background-color: #3A4F64;
+    }
+
+    .currency-button:hover {
+        background: rgba(253, 254, 248, 0.5);
+
+    }
+}
+
 @media screen and (max-width: 751px) {
 
     body {

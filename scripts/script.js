@@ -24,3 +24,59 @@ for (let i = 0; i < productButtons.length; i++) {
     };
 }
 
+function priceToNumber (price) {
+    let pricePoint = price.replace(',','.');
+    return parseFloat(pricePoint);
+}
+
+function priceToString(price) {
+    // Форматируем число с тремя знаками после запятой и заменяем точку на запятую
+    return price.toFixed(3).replace('.', ',');
+}
+
+
+let currency_button = document.getElementById('currency-button');
+
+currency_button.onclick = function(){
+
+    let currency = currency_button.innerText;
+    let prices = document.getElementsByClassName('product-prise');
+    let currency_coeff = 1;
+
+    switch (currency) {
+
+        case '$':
+            currency_coeff = 0.848;
+            currency_button.innerText = '€';
+            for (let i = 0; i < prices.length; i++) {
+                let price = (prices[i].innerText).slice(1);
+                price = parseFloat(priceToNumber(price).toFixed(3));
+                let newPrise = priceToString(currency_coeff * price);
+                prices[i].innerText = '€' + newPrise;
+            }
+            return;
+        case '€':
+            currency_coeff = 98.98;
+            currency_button.innerText = '₽';
+            for (let i = 0; i < prices.length; i++) {
+                let price = (prices[i].innerText).slice(1);
+                price = parseFloat(priceToNumber(price).toFixed(3));
+                let newPrise = priceToString(currency_coeff * price);
+                prices[i].innerText = '₽' + newPrise;
+            }
+            return;
+        case '₽':
+            currency_coeff = 0.012;
+            currency_button.innerText = '$';
+            for (let i = 0; i < prices.length; i++) {
+                let price = (prices[i].innerText).slice(1);
+                price = parseFloat(priceToNumber(price).toFixed(3));
+                let newPrise = priceToString(currency_coeff * price);
+                prices[i].innerText = '$' + newPrise;
+            }
+            return;
+        default:
+            return;
+    }
+};
+

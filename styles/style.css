@@ -23,7 +23,7 @@ html {
 
 body {
     color: #FDFEF8;
-    font-family: 'HeliosExtLight', sans-serif;
+    font-family: 'HeliosExtLight';
 }
 
 /* Переопределение стилей для всех заголовков */
@@ -201,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-title .title-text {
-    font-family: 'HeliosExtLight', sans-serif;
+    font-family: 'HeliosExtLight';
     font-size: 35px;
     line-height: 1;
     margin: 1px 0 6px 0;

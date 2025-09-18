@@ -1,7 +1,7 @@
 @media screen and (max-width: 1081px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .catalog .container {
@@ -55,7 +55,7 @@
 @media screen and (max-width: 1025px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .hero .container {
@@ -92,7 +92,7 @@
 @media screen and (max-width: 751px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .header .logo {
@@ -116,7 +116,7 @@
 @media screen and (max-width: 651px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .burger {
@@ -188,7 +188,7 @@
 @media screen and (max-width: 616px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .hero-title {
@@ -196,7 +196,7 @@
     }
 
     .hero-title .title-text {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
         font-size: 30px;
     }
 }
@@ -204,14 +204,14 @@
 @media screen and (max-width: 541px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .hero-title {
         width: 360px;
     }
     .hero-title .title-text {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
         font-size: 25px;
     }
 
@@ -255,7 +255,7 @@
 @media screen and (max-width: 501px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .header .container {
@@ -284,7 +284,7 @@
 @media screen and (max-width: 426px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .hero-title {
@@ -292,7 +292,7 @@
     }
 
     .hero-title .title-text {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
         font-size: 21px;
     }
 
@@ -306,7 +306,7 @@
 
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .header .container, .footer .container {
@@ -322,7 +322,7 @@
 @media screen and (max-width: 351px) {
 
     body {
-        font-family: 'HeliosExtLight', sans-serif;
+        font-family: 'HeliosExtLight';
     }
 
     .order .container {

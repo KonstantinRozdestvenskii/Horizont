@@ -89,6 +89,16 @@
 
 }
 
+@media screen and (max-width: 769px) {
+    .btn:focus {
+        background-color: transparent;
+    }
+
+    .btn.product-btn:hover {
+        background-color: #3A4F64;
+    }
+}
+
 @media screen and (max-width: 751px) {
 
     body {

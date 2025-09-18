@@ -30,8 +30,24 @@ function priceToNumber (price) {
 }
 
 function priceToString(price) {
-    // Форматируем число с тремя знаками после запятой и заменяем точку на запятую
-    return price.toFixed(3).replace('.', ',');
+    // Преобразуем число в строку с максимальной точностью
+    const num = parseFloat(price);
+
+    // Определяем количество цифр в целой части
+    const integerPart = Math.floor(Math.abs(num));
+    const integerDigits = integerPart.toString().length;
+
+    if (integerDigits >= 7) {
+        // Если целая часть >= 7 цифр - отображаем без дробной части
+        return integerPart.toString();
+    } else if (integerDigits === 6) {
+        // Если целая часть 6 цифр - отображаем без дробной части (итого 6 знаков)
+        return integerPart.toString();
+    } else {
+        // Для меньшего количества цифр добавляем дробную часть
+        const neededDecimalDigits = 6 - integerDigits;
+        return num.toFixed(neededDecimalDigits).replace('.', ',');
+    }
 }
 
 

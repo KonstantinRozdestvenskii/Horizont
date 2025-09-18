@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: 'HeliosExtLight';
-    src: url('../fonts/heliosextlight-regular.otf') format('opentype');
-    src: url("../fonts/heliosextlight-regular.ttf") format("truetype");
-    src: url("../fonts/heliosextlight-regular.woff") format("woff");
-    src: url("../fonts/heliosextlight-regular.woff2") format("woff2");
+    src: url('../fonts/heliosextlight-regular.woff2') format('woff2'),
+        url('../fonts/heliosextlight-regular.woff') format('woff'),
+        url('../fonts/heliosextlight-regular.ttf') format('truetype'),
+        url('../fonts/heliosextlight-regular.otf') format('opentype');
     font-weight: normal;
 }
 

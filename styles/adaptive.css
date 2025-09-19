@@ -45,7 +45,7 @@
         text-align: center;
     }
 
-    .order-description, .order-input, .order-btn, .error-input {
+    .order-description, .order-input, .order-btn, .error-input, .error-description {
         margin-left: auto;
         margin-right: auto;
     }

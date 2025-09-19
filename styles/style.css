@@ -405,12 +405,16 @@ h1, h2, h3, h4, h5, h6 {
     color: #FDFEF8;
 }
 
-.error-input {
+.error-input, .error-description {
     display: none;
     width: 287px;
     color: red;
     font-size: 14px;
     margin: -15px 0 20px 0;
+}
+
+.error-description {
+    margin: -25px 0 30px 0;
 }
 
 .btn.order-btn {

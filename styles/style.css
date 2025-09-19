@@ -390,10 +390,26 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid #FDFEF8;
     margin-bottom: 20px;
     background-color: #3A4F64;
+    outline: none;
 }
 
 .order-input::placeholder, .order-description::placeholder {
     color: rgba(253, 254, 248, 0.75);
+}
+
+.order-input:active, .order-description:active,
+.order-input:focus, .order-description:focus {
+    background-color: #3A4F64;
+    border: none;
+    border-bottom: 1px solid #FDFEF8;
+    color: #FDFEF8;
+}
+
+.error-input {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin: -15px 0 20px 0;
 }
 
 .btn.order-btn {

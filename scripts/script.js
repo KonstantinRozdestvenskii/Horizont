@@ -96,3 +96,70 @@ currency_button.onclick = function(){
     }
 };
 
+document.getElementById('order-btn').onclick = function () {
+    // Скрываем все блоки с ошибками и восстанавливаем стандартный вид полей
+    const errorInputs = document.querySelectorAll('.error-input');
+    const inputs = document.querySelectorAll('input');
+
+    let description = document.getElementById('description');
+
+    description.style.border = 'none';
+    description.style.borderBottom = '1px solid #FDFEF8';
+    description.style.outline = 'none';
+
+    // Скрываем все сообщения об ошибках
+    errorInputs.forEach(error => {
+        error.style.display = 'none';
+    });
+
+    // Восстанавливаем стандартный вид всех полей ввода
+    inputs.forEach(input => {
+        input.style.border = 'none';
+        input.style.borderBottom = '1px solid #FDFEF8';
+        input.style.outline = 'none';
+    });
+
+    let isError = false;
+
+
+    let name = document.getElementById('name');
+    let phone = document.getElementById('phone');
+
+    if (!description.value.trim()) {
+        description.style.border = "1px solid red";
+        description.nextElementSibling.style.display = "block";
+        isError = true;
+    }
+
+    if (!name.value.trim()) {
+        name.style.border = "1px solid red";
+        name.nextElementSibling.style.display = "block";
+        isError = true;
+    }
+
+    if (!phone.value.trim()) {
+        phone.style.border = "1px solid red";
+        phone.nextElementSibling.style.display = "block";
+        isError = true;
+    }
+
+    if (!isError) {
+        alert('Спасибо за заказ! Мы скоро свяжемся с вами.');
+        description.style.border = 'none';
+        description.style.borderBottom = '1px solid #FDFEF8';
+        description.style.outline = 'none';
+
+        // Скрываем все сообщения об ошибках
+        errorInputs.forEach(error => {
+            error.style.display = 'none';
+        });
+
+        // Восстанавливаем стандартный вид всех полей ввода
+        inputs.forEach(input => {
+            input.style.border = 'none';
+            input.style.borderBottom = '1px solid #FDFEF8';
+            input.style.outline = 'none';
+        });
+    }
+};
+

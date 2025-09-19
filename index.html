@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Horizont</title>
+    <title>Horizon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/adaptive.css">
@@ -233,9 +233,12 @@
                 <form action="" class="form">
                     <textarea class="order-description" name="order-description" id="description"
                               placeholder="Описание заказа"></textarea>
+                    <div class="error-input">Введите описание заказа</div>
                     <input type="text" class="order-input" id="name" placeholder="Имя">
+                    <div class="error-input">Введите имя</div>
                     <input type="text" class="order-input" id="phone" placeholder="Номер телефона">
-                    <button type="button" class="btn order-btn">Отправить</button>
+                    <div class="error-input">Введите телефон</div>
+                    <button type="button" class="btn order-btn" id="order-btn">Отправить</button>
                 </form>
             </div>
         </div>
